@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shyam14-IITM/iGEM-web-ProjectA/static/css/main.d56320ef.css",
+    "main.js": "/shyam14-IITM/iGEM-web-ProjectA/static/js/main.7bb4e195.js",
+    "static/js/453.6bbca75b.chunk.js": "/shyam14-IITM/iGEM-web-ProjectA/static/js/453.6bbca75b.chunk.js",
+    "index.html": "/shyam14-IITM/iGEM-web-ProjectA/index.html",
+    "main.d56320ef.css.map": "/shyam14-IITM/iGEM-web-ProjectA/static/css/main.d56320ef.css.map",
+    "main.7bb4e195.js.map": "/shyam14-IITM/iGEM-web-ProjectA/static/js/main.7bb4e195.js.map",
+    "453.6bbca75b.chunk.js.map": "/shyam14-IITM/iGEM-web-ProjectA/static/js/453.6bbca75b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d56320ef.css",
+    "static/js/main.7bb4e195.js"
+  ]
+}
