@@ -1,0 +1,62 @@
+.Attributions header{
+    /* height:600px; */
+}
+
+.Attributions header img{
+    /* background-image: url(http://static.igem.wiki/teams/5155/mars.webp); */
+
+    /* position: absolute; */
+    /* top:50px; */
+    /* left:25%; */
+    /* width:45%; */
+    /* background-size: contain; */
+    object-fit: contain;
+    /* height:500px; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+}
+.Attributions header div{
+    display: flex;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+    /* height:86%; */
+    /* width:50%; */
+    /* margin:0 auto; */
+    /* background-image: url(http://static.igem.wiki/teams/5155/mars.webp); */
+    /* background-size:contain; */
+}
+.Attributions p{
+
+    
+    position: absolute;
+    margin-top:120px;
+    /* margin-left:20%; */
+    /* justify-self: center; */
+
+    /* padding: 5%; */
+    /* background-image: url(http://static.igem.wiki/teams/5155/mars.webp); */
+    /* top:34%; */
+    /* left:34%; */
+    /* width:50%; */
+    /* padding-top: 40%; */
+    /* margin: auto; */
+    color: rgb(249, 241, 241);
+
+    /* width:40%; */
+    
+    /* letter-spacing: 2px; */
+    font-size: 3em;
+    text-shadow: 3px 0px 9px white;
+    /* z-index: 1; */
+}
+
+.Attributions h3{
+    color:white;
+}
+.Attributions iframe{
+    height:2000px;
+    padding:30px;
+}
+.Attributions iframe h3{
+    color:white !important;
+}

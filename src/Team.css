@@ -1,0 +1,12 @@
+.Team{
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    
+
+
+}
+
+
+ .Team>img{
+    max-width: 100%;
+ }

@@ -1,0 +1,56 @@
+
+
+.Member{
+
+    border:3px solid rgb(238, 79, 54);
+    border-radius: 20px;
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-bottom: 70px;
+    color:white;
+
+}
+.Member .info{
+    width: 60%;
+    padding:10px;
+    opacity: 0;
+    transition: opacity 1s;
+    background-color: rgb(255, 93, 57);
+    
+}
+.Member .info:hover{
+    opacity: 1;
+}
+.Member img{
+    margin:5px;
+    height: 195px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.Member .intro{
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 20px;
+    max-width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:604px){
+    .Member img{
+        border-radius:  20px;
+        height:300px ;
+        max-width: 100%;
+        margin:0 auto ;
+        object-fit:contain;
+    }
+    .Member .info{
+        width: 100%;
+    
+    }
+    .Member .intro{
+        margin-right:30%;
+    }
+}

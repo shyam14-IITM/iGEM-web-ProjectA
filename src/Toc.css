@@ -1,0 +1,51 @@
+.Toc{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    top:140px;
+    height: 500px;
+    border:2px solid rgba(255, 85, 0, 0.584);
+    border-left: 0px;
+    border-bottom: 1px solid rgba(255, 166, 0, 0.438);
+    transition: transform 0.6s;
+    
+}
+.Toc .active{
+    color:rgb(255, 64, 0);
+    text-shadow: 1px 1px 3px black;
+    font-weight: 600;
+    padding-left:30px;
+    background-color: rgba(255, 255, 255, 0.101);
+}
+.Toc div{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+}
+.Toc a{
+    font-size: 20px;
+   padding: 10px;
+    text-decoration: none;
+    border-bottom:1px solid rgba(255, 255, 255, 0.567);
+    border-top: none;
+    border-right: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color:white;
+    border-radius: 5px;
+    transition: padding-left 0.3s linear;
+    
+    
+    
+}
+.Toc a:hover{
+    padding-left:30px;
+    border-radius: 5px;
+}
+@media(max-width:746px){
+    .Toc{
+        display: none;
+    }
+
+}

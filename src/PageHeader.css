@@ -1,0 +1,39 @@
+.header{
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+
+
+}
+.header .Title {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+}
+.header .Title p{
+    position: absolute;
+    top:115px;
+    font-size: 100px;
+    color:white;
+    text-shadow: 4px 0px 10px rgb(255, 255, 255);
+}
+#dark{
+    text-shadow: none;
+    color: rgb(122, 116, 116);
+}
+.imgdiv{
+    /* width:50%; */
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+
+}
+.imgdiv img{
+    width: 318px;
+    height: 318px;
+}
+@media(max-width:772px){
+    .header .Title p{
+        font-size: 50px;
+        top:205px
+    }
+}
